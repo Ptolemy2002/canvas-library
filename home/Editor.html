@@ -53,7 +53,7 @@
             window.setInterval(function() {
                 if (editor.value !== lastText) {
                     eval(editor.value);
-                    if (imagesLoaded === images.length && imagesLoaded === sourcesLoaded.length && sourcesLoaded.length === images.length && !imagesLoaded === 0) {
+                    if (imagesLoaded === images.length && !imagesLoaded === 0) {
                         start(images);
                     }
                 }
